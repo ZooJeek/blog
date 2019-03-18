@@ -12,7 +12,7 @@
                     <p><bd><?php echo article_date(); ?></bd></p>
                     <h4><?php echo article_title(); ?></h4>
                     <p><?php echo article_description(); ?></p>
-                    <p><a href="<?php echo article_url(); ?>">Continue Reading...</a></p>
+                    <p><a href="<?php echo article_url(); ?>">阅读全文</a></p>
                 </div>
             </div><!-- /row -->
         </div><!-- /container -->
@@ -22,8 +22,8 @@
 <?php if(has_pagination()): ?>           
     <div id="grey">
         <div class="col-lg-8 col-lg-offset-2">
-        <?php echo posts_prev('# Back'); ?>
-        <?php echo posts_next('# Next'); ?>
+        <?php echo posts_prev('后退'); ?>
+        <?php echo posts_next('下一篇'); ?>
         </div>
     </div><!-- /#grey -->
 <?php endif; ?>
