@@ -22,8 +22,8 @@
 <?php if(has_pagination()): ?>           
     <div id="grey">
         <div class="col-lg-8 col-lg-offset-2">
-        <?php echo posts_prev('后退'); ?>
-        <?php echo posts_next('下一篇'); ?>
+        <?php echo posts_prev('上一页'); ?>
+        <?php echo posts_next('下一页'); ?>
         </div>
     </div><!-- /#grey -->
 <?php endif; ?>
