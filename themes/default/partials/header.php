@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="<?php echo theme_url('assets/css/bootstrap.css'); ?>">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="<?php echo theme_url('assets/css/main.css'); ?>">
+
+    <link rel="stylesheet" href="<?php echo theme_url('/css/reset.css'); ?>">
+		<link rel="stylesheet" href="<?php echo theme_url('/css/style.css'); ?>">
+		<link rel="stylesheet" href="<?php echo theme_url('/css/small.css'); ?>" media="(max-width: 400px)">
+
+
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="<?php echo theme_url('assets/js/hover.zoom.js'); ?>"></script>
     <script src="<?php echo theme_url('assets/js/hover.zoom.conf.js'); ?>"></script>
