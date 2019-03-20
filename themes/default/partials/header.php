@@ -56,15 +56,12 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">       
             <?php if(has_menu_items()): ?>
-				  <?php while(menu_items()): ?>
+				      <?php while(menu_items()): ?>
 				        <li <?php echo (menu_active() ? 'class="active"' : ''); ?>>
                     <a href="<?php echo menu_url(); ?>"><?php echo menu_name(); ?></a>
                 </li>                      
 		          <?php endwhile; ?>
             <?php endif; ?>
-              <li>
-                  <a href="/category/php"> PHP </a>
-              </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /container -->
