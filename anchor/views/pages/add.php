@@ -52,7 +52,7 @@
     <div class="wrap">
       <p>
         <label for="label-show_in_menu"><?php echo __('pages.show_in_menu'); ?>:</label>
-          <?php echo Form::checkbox('show_in_menu', 1, Input::previous('show_in_menu', 0) == 1,
+          <?php echo Form::checkbox('show_in_menu', 1, Input::previous('show_in_menu', 1) == 1,
               ['id' => 'label-show_in_menu']); ?>
         <em><?php echo __('pages.show_in_menu_explain'); ?></em>
       </p>
