@@ -9,11 +9,9 @@
 				</div><!-- /col-lg-4 -->
 				
 				<div class="col-lg-4">
-					<h4>My Links</h4>
+					<h4>友情链接</h4>
 					<p>
-                    <?php if(site_meta('acc_dribbble') !=''): ?>   
-						<a href="<?php echo dribbble_url(); ?>">Dribbble</a><br/>
-                    <?php endif; ?>
+					<a href="http://www.crdyjh.cn">Richod</a><br/>
                     <?php if(site_meta('acc_twitter') !=''): ?> 
 						<a href="<?php echo twitter_url(); ?>">Twitter</a><br/>
                     <?php endif; ?>
