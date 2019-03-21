@@ -60,8 +60,6 @@
 				        <li <?php echo (menu_active() ? 'class="active"' : ''); ?>>
                     <a href="<?php echo menu_url(); ?>"><?php echo menu_name(); ?></a>
                 </li>
-                <li><a href="/category/php"> PHP </a></li>
-                <li><a href="/category/golang"> Golang </a></li>
 		          <?php endwhile; ?>
             <?php endif; ?>
           </ul>
