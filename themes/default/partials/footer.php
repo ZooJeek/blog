@@ -11,7 +11,7 @@
 				<div class="col-lg-4">
 					<h4>友情链接</h4>
 					<p>
-					<a href="http://www.crdyjh.cn" target="about_blank">Richod's Blog</a><br/>
+					<a href="http://blog.crdyjh.cn" target="about_blank">Richod's Blog</a><br/>
                     <?php if(site_meta('acc_twitter') !=''): ?> 
 						<a href="<?php echo twitter_url(); ?>">Twitter</a><br/>
                     <?php endif; ?>
